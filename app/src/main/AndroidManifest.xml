@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pvny.thuvien" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".vip.VipActivity"
+            android:label="@string/title_activity_vip" >
+        </activity>
+        <activity
+            android:name=".vip.AddActivity"
+            android:label="@string/title_activity_add" >
+        </activity>
+        <activity
+            android:name=".vip.DeleteDataActivity"
+            android:label="@string/title_activity_delete_data" >
+        </activity>
+        <activity
+            android:name=".vip.OpenUpdateActivity"
+            android:label="@string/title_activity_open_update" >
+        </activity>
+        <activity
+            android:name=".vip.UpdateActivity"
+            android:label="@string/title_activity_update" >
+        </activity>
+        <activity
+            android:name=".vip.ViewAddActivity"
+            android:label="@string/title_activity_view_add" >
+        </activity>
+    </application>
+
+</manifest>
